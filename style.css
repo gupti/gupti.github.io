@@ -1,0 +1,130 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.ttf?-13ibjt') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway';
+  src:url('fonts/Raleway-Light.ttf');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: block;
+  font-family: 'raleway', sans-serif;
+  margin: 0;
+  cursor: default;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 120px;
+  font-size: 32pt;
+  color: #1fa6f3;
+  margin: 24px 0 24px 120px;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+  -webkit-transition: opacity 0.2s linear;
+}
+
+h2 {
+  color: #1fa6f3;
+  margin: 5px 0 3px 0;
+}
+
+a:link, a:visited
+{
+  color: #1fa6f3;
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+img {
+  max-width: calc(100% - 40px);
+  padding: 20px;
+  display: block;
+}
+
+.side-btn {
+  font-size: 32px;
+  background-color: #1fa6f3;
+  margin-bottom: 54px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 54px;
+  left: 0;
+  width: 54px;
+  color: white;
+  position: relative;
+  transition: left 0.2s ease-out;
+  -webkit-transition: left 0.2s ease-out;
+}
+
+.btn-left {
+  left: -50px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.dev-div {
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  background-color: #1fa6f3;
+}
+
+.container {
+	vertical-align: top;
+  display: inline-block;
+  margin-left: 64px;
+  width: 50%;
+  height: calc(100vh - 98px);
+  overflow: auto;
+}
+
+.sec {
+  animate: arrival 1s;
+}
+
+.box {
+  border-bottom: 4px solid #1fa6f3;
+  padding: 1%;
+}
+
+.title {
+  display: none;
+  margin-left: 0;
+}
+
+.icon-home:before {
+	content: "\e900";
+}
+
+.icon-hammer:before {
+	content: "\e996";
+}
+
+.icon-switch:before {
+	content: "\e9b6";
+}

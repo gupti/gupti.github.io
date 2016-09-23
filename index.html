@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'></meta>
+        <title>gupti</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel='shortcut icon' href='favicon.ico'/>
+        <script src="main.js"></script>
+    </head>
+    <body onload="setup()">
+        <div>
+            <h1 class='col-bind'>gupti</h1><h1 id='home-title' class='title'></h1><h1 id='proj-title' class='title hidden'>&#160;- projects</h1><h1 id='serv-title' class='title hidden'>&#160;- other stuff</h1>
+        </div>
+        <div>
+            <div style="display: inline-block">
+                <div id='home-btn' class='side-btn icon-home bak-bind btn-left' onClick='load("home")'></div>
+                <div id='proj-btn' class='side-btn icon-hammer bak-bind' onClick='load("proj")'></div>
+                <div id='serv-btn' class='side-btn icon-switch bak-bind' onClick='load("serv")'></div>
+            </div>
+            <div class="container">
+                <div id='home' class='sec'>
+                    Hi there! I'm Paul, an engineering student known online as gupti in some places like <a href='https://keybase.io/gupti'>Keybase</a> or <a href='https://github.com/gupti'>Github</a>.
+                </div>
+                <div id='proj' class='sec' style='display: none'>
+                    Here are some things I've worked on.
+                    <div class='box'>
+                        <h2>Leap Mana</h2>
+                        A multiplayer Leap Motion spell casting game done in JavaScript. Made with friends for UofTHacks 2015.
+                        <img src='images/leap_mana.png'></img>
+                    </div>
+                    <div class='box'>
+                        <h2>Cloudy Sword</h2>
+                        A turn-based battle game made with some friends and Node.js.
+                        <img src='images/cloudy_sword.png'></img>
+                    </div>
+                </div>
+                <div id='serv' class='sec' style='display: none'>
+                    I'm not hosting anything else other than this static website at the moment, but in the future I hope to make a file or IRC server or something. This website is still a work in progress!
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
