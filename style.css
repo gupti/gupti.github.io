@@ -1,50 +1,39 @@
 @font-face {
-	font-family: 'icomoon';
-	src:url('fonts/icomoon.ttf?-13ibjt') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
   font-family: 'raleway';
   src:url('fonts/Raleway-Light.ttf');
-}
-
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 body {
   display: block;
   font-family: 'raleway', sans-serif;
-  margin: 0;
+  margin: auto;
   cursor: default;
+  width: 50%;
+  min-width: 640px;
+  max-width: 1280px;
+  padding:0 16px 0 16px;
 }
 
 h1 {
-  display: inline-block;
-  margin-left: 120px;
+  display: inline;
   font-size: 32pt;
   color: #79ae3d;
-  margin: 24px 0 24px 120px;
+  margin: 24px 0 24px 0;
   opacity: 1;
   transition: opacity 0.2s linear;
   -webkit-transition: opacity 0.2s linear;
 }
 
-h2 {
+span {
+  display: block;
+}
+
+.nav {
+  display: inline;
   color: #79ae3d;
-  margin: 5px 0 3px 0;
+  margin-left: 32px;
+  font-size: 20pt;
+  cursor: pointer;
 }
 
 a:link, a:visited
@@ -59,72 +48,15 @@ a:hover
 }
 
 img {
-  max-width: calc(100% - 40px);
+  max-width: 360px;
   padding: 20px;
-  display: block;
-}
-
-.side-btn {
-  font-size: 32px;
-  background-color: #79ae3d;
-  margin-bottom: 54px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 54px;
-  left: 0;
-  width: 54px;
-  color: white;
-  position: relative;
-  transition: left 0.2s ease-out;
-  -webkit-transition: left 0.2s ease-out;
-}
-
-.btn-left {
-  left: -50px;
-}
-
-.hidden {
-  opacity: 0;
-}
-
-.dev-div {
-  display: inline-block;
-  height: 64px;
-  width: 64px;
-  background-color: #79ae3d;
-}
-
-.container {
-	vertical-align: top;
-  display: inline-block;
-  margin-left: 64px;
-  width: 50%;
-  height: calc(100vh - 98px);
-  overflow: auto;
-}
-
-.sec {
-  animate: arrival 1s;
 }
 
 .box {
-  border-bottom: 4px solid #79ae3d;
   padding: 1%;
+  display: inline-block;
 }
 
-.title {
-  display: none;
-  margin-left: 0;
-}
-
-.icon-home:before {
-	content: "\e900";
-}
-
-.icon-hammer:before {
-	content: "\e996";
-}
-
-.icon-switch:before {
-	content: "\e9b6";
+.top-bar {
+  padding-bottom: 16px;
 }

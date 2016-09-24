@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/gupti
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://gupti.ca
+  * I am gupti (https://keybase.io/gupti) on keybase.
+  * I have a public key with fingerprint 389A 9AA7 1C07 D8BA 60DC  3862 57FE 480C EA2E E37C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101e21b6b91f828215a0726f17a2335445835289167f475e5764a8282f54d403f540a",
+            "fingerprint": "389a9aa71c07d8ba60dc386257fe480cea2ee37c",
+            "host": "keybase.io",
+            "key_id": "57fe480cea2ee37c",
+            "kid": "0101e21b6b91f828215a0726f17a2335445835289167f475e5764a8282f54d403f540a",
+            "uid": "2caec54c4d3d9624bff439931acf0400",
+            "username": "gupti"
+        },
+        "service": {
+            "hostname": "gupti.ca",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1474735092,
+    "expire_in": 157680000,
+    "prev": "491e5801dc361f10a33e7457a90f89645deabfcfaa7c6d314d09a9008ca1f1ac",
+    "seqno": 33,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMM1AnicrVJ9TFVlHL4YXxIXvStENtjaifwoovPxnq/LUkSY2phcrUn0wfU957wH
+jxfuud57gYBAdNe5pRktdY3tKrdFFBmE2FDUCrwYwW5rCpKgXhoFzhyjIqSJ0ntY
+bf3Rn73//Pb+3ud53uf3ETQ/YoqLKHi4Of5OxvibEQPd9WWmgolPZ6oJSVcqCWs1
+4UCLAZUoyOO1OzSFsBIkRVKIpiROEilVoAWaYiHJ05xK8ZBmGBYAVmBYWhApjlcB
+zyKW5wA0gCoLFEAyOJCQSCdUzVmM3C635vRiWUYQoQghT8kkrwgS5EhFZgSOZnkV
+AYGUEaQRYngZE3fpHoOBzUnQgzI0Hefwxb5o7z/w/7PvskU5WoZIZoEMFEYRORpI
+qgoYUWQoKKskIEkD6EFuJyxFGF1c5vJqRE06gVPlmoyMrhpl/Ps5QzbUXW7dq8t6
+Cc7u8npdVoPkrXQZqAok2f/m2yXNqeD+YUI5cns03UlYKYyUvZohSAEe8AxLinQ6
+gd5waW5k1wwELkkg8TG+QeVYEogUYgWSwr3mKJUiIcMgHrA8FElVEDnAKghKqqzi
+wcicwlBAIfGYSFKQIYZDo7setMepE1aGwT5hMdb0aMVO6C1zI6Kmp/u1SFNEnCk6
+aomxWKa4pcv/WbcjDcsW0J19jWv6xfPEzW/7f943XJIcvqi/XZQcdQ10+SuLA386
+ph4D+/9IB/X3UnoFqaq1LtHxauG1nrNDwUNXs5PStsk/TX3Zu/+cNSr59I763uru
+xr4i3/Yzk8tvb7oMfq3yxczNmdHrhYNPHvDdSGv2vUx3XJ1v2RKum2wfTEpZcbh5
+pnXz9vpo4fsmdsvphXWF60c35JeW9Qlm29HBZz93PNr09UHX3trBrDEL8eG26PeX
+tFPB5JOWs03NGY+vCP9myz9oHrYtPcnMCnvtU5FpT6UJ2d/kznzWYblVP7aGOBX6
+ISmvSwkAT8JzPU+8kFNl6dcPP+OLGbL20LsvJIQKEyfdjubV944l5OwO3s67/8XQ
+wkatMir/xdrc+zkrhZEJOjPdFLbappvf2Trvb5NXx2dnmizBc6I/dpz6PbOmgb3V
+uaedaGi7EHw+do6PeSsrixloOPrRg4L5lp7U7E9+DJ3vq0i8sunBxjM6PxMZTjJf
+v3SFSp05lnjxUkoYNg7fkFbaS1ZVfFe3zBKfYh6OOTEy27pj/fH81OBAWy135N3c
+U/4POuWhlwKEdTQwp+TFaIciRi072wptodLw8fb+h+/1tXf4E2O/0p4Of1x6t2Si
+KyD0rfUFAtcTDlz2Tf+ytmhnzvjwbJ1ZXDci390QdDfZWlqYkVB+xCuVN8tD/lWd
+Y9N/AbZVvc0=
+=tpX/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gupti
+
+==================================================================
