@@ -1,11 +1,15 @@
+// Currently selected page to display
 var selected = 'home';
 
+// Change the currently displayed page
 load = function (pageName) {
   if (pageName !== selected){
-    //content
+
+    // Change displayed content block
     document.getElementById(selected).style.display = 'none';
     document.getElementById(pageName).style.display = 'block';
-    //title text
+
+    // Change title text
     document.getElementById(selected + '-title').className += ' hidden';
     setTimeout(function(){
       document.getElementById(selected + '-title').style.display = 'none';
@@ -13,14 +17,15 @@ load = function (pageName) {
       setTimeout(function(){document.getElementById(pageName + '-title').className = document.getElementById(selected + '-title').className.replace(/(?:^|\s)hidden(?!\S)/g, '');}, 50);
       selected = pageName;
     }, 200);
-    //buttons
+
+    // Change which button is pushed in
     document.getElementById(selected + '-btn').className = document.getElementById(selected + '-btn').className.replace(/(?:^|\s)btn-left(?!\S)/g, '');
     document.getElementById(pageName + '-btn').className += ' btn-left';
   }
 }
 
 
-//Setup on page load
+// Setup on page load
 function setup() {
   //document.getElementById('proj').style.display = 'none';
   //document.getElementById('serv').style.display = 'none';

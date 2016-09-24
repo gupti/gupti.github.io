@@ -4,18 +4,17 @@
         <meta charset='utf-8'></meta>
         <title>gupti</title>
         <link rel="stylesheet" href="style.css">
-        <link rel='shortcut icon' href='favicon.ico'/>
+        <link rel='shortcut icon' type="image/png" href='favicon.png'/>
         <script src="main.js"></script>
     </head>
     <body onload="setup()">
         <div>
-            <h1 class='col-bind'>gupti</h1><h1 id='home-title' class='title'></h1><h1 id='proj-title' class='title hidden'>&#160;- projects</h1><h1 id='serv-title' class='title hidden'>&#160;- other stuff</h1>
+            <h1 class='col-bind'>gupti</h1><h1 id='home-title' class='title'></h1><h1 id='proj-title' class='title hidden'>&#160;- projects</h1>
         </div>
         <div>
             <div style="display: inline-block">
                 <div id='home-btn' class='side-btn icon-home bak-bind btn-left' onClick='load("home")'></div>
                 <div id='proj-btn' class='side-btn icon-hammer bak-bind' onClick='load("proj")'></div>
-                <div id='serv-btn' class='side-btn icon-switch bak-bind' onClick='load("serv")'></div>
             </div>
             <div class="container">
                 <div id='home' class='sec'>
@@ -33,9 +32,6 @@
                         A turn-based battle game made with some friends and Node.js.
                         <img src='images/cloudy_sword.png'></img>
                     </div>
-                </div>
-                <div id='serv' class='sec' style='display: none'>
-                    I'm not hosting anything else other than this static website at the moment, but in the future I hope to make a file or IRC server or something. This website is still a work in progress!
                 </div>
             </div>
         </div>
