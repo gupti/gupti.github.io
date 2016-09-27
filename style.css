@@ -19,9 +19,6 @@ h1 {
   font-size: 32pt;
   color: #79ae3d;
   margin: 24px 0 24px 0;
-  opacity: 1;
-  transition: opacity 0.2s linear;
-  -webkit-transition: opacity 0.2s linear;
 }
 
 span {
@@ -55,6 +52,21 @@ img {
 .box {
   padding: 1%;
   display: inline-block;
+  opacity: 1;
+}
+
+.container {
+  opacity: 1;
+  transition: 0.35s ease;
+}
+
+.container-hide {
+  opacity: 0;
+  transition: 0.35s ease;
+}
+
+.container-none {
+  display: none;
 }
 
 .top-bar {
