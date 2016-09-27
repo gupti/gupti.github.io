@@ -45,8 +45,11 @@ a:hover
 }
 
 img {
+  display: block;
   max-width: 360px;
-  padding: 20px;
+  margin: auto;
+  text-align: center;
+  padding-top: 12px;
 }
 
 .box {
